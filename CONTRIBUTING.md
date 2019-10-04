@@ -1,5 +1,6 @@
 # Add Your name and github link
 
-#### See Below
+## See Below
 
-1. Aditya (https://github.com/adityakmr7);
+1. Aditya (<https://github.com/adityakmr7);>
+2. Daniel Otieno (<https://github.com/danielotieno)>
