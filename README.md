@@ -86,6 +86,4 @@ $ git merge dev-<yourusername>
 $ git push origin master
 ```
 
-# Contribution
 
-1. 
