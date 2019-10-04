@@ -16,13 +16,13 @@ $ cd /path-to-folder
 
 
 
-###### Clone the forked repository from GitHub.
+#### Clone the forked repository from GitHub.
 
 ```
 $ git clone https://github.com/<yourusername>/HacktoberfestinAba.github.io
 ```
 
-###### Navigate into the cloned repository.
+#### Navigate into the cloned repository.
 
 
 ```
@@ -30,13 +30,13 @@ $ cd project
 ```
 
 
-######Create a new branch.
+####Create a new branch.
 
 ```
 $ git branch dev-<yourusername>
 ```
 
-######Switch to your new branch.
+####Switch to your new branch.
 
 ```
 $ git checkout dev-<yourusername>
@@ -48,40 +48,39 @@ Make the changes you want on your new branch and when you are done, you can veri
 To commit your changes,
 
 
-######first stage the files for commit.
+####first stage the files for commit.
 
 ```
 $ git add <filename1> <filename2>
 ```
 
-######Verify that the files have been staged.
+####Verify that the files have been staged.
 
 ```
 $ git status
 ```
-
-######Then make your commit.
+####Then make your commit.
 
 ```
 $ git commit -m 'commit message'
 ```
 
 
-######To merge your modifications from the development branch, first switch to the `master` branch.
+####To merge your modifications from the development branch, first switch to the `master` branch.
 
 ```
 $ git checkout master
 ```
 
 
-######Merge the development branch with the `master` branch.
+####Merge the development branch with the `master` branch.
 
 ```
 $ git merge dev-<yourusername>
 ```
 
 
-######Finally, push your changes to your GitHub repository.
+####Finally, push your changes to your GitHub repository.
 
 ```
 $ git push origin master
