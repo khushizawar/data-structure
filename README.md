@@ -1,7 +1,7 @@
 # DataStructure
 
 > Help us Put together Data Structure in every language. Few Of them is added as an example to show file Structure.
-Make Sure to add your name and github profile link in the Contribution section.
+Make Sure to add your name and github profile link in the Contributing page.
 
 
 ## Installing
