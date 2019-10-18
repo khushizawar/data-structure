@@ -30,7 +30,7 @@ void ins_at_beg(int k)
 		temp->addr=head;
 		head=temp;
 		
-	}
+	 }
 }
 void ins_at_end(int k)
 {
