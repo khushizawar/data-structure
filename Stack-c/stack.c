@@ -47,6 +47,8 @@ int isEmpty( Stack* s )
 /* Return 1 if the Stack is full,
  * return 0, otherelse
  * @param: Stack* - pointer to a stack structure 
+ *
+ * @return: 1 if stack is full, 0 otherelse
  */
 int isFull( Stack* s)
 {
@@ -60,7 +62,6 @@ int isFull( Stack* s)
  * @param: Stack* - pointer to a stack structure
  * @param: void* - value to be pushed in the stack
  */
-
 void push( Stack* s, void* value )
 {
     if ( ! isFull(s) ) {
@@ -106,6 +107,8 @@ void print(Stack *s){
  * This function is used to assertion in main function.
  * @param: void* - array with void type elements
  * @param: int* - array with integer type elements
+ *
+ * @return: 0 if arrays are different, 1 if they are equal
  */
 int compareVoidInt( void* voidArray, int* intArray, int size )
 {
